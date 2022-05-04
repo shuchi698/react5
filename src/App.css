@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(149, 149, 179);
+    padding: 15px 0;
+}
+
+.link {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-style: Italic;
+}
+
+.Home, .Contact {
+    height: 90vh;
+    text-align: center;
+    padding: 14%;
+    font-size: 80px;
+    font-style: italic;
+    
+}
+
+.Home{
+    background-image: linear-gradient(to right lightgreen,rgb(219, 219, 111));
+}
+.Contact{
+    background-color: purple;
+}
+.Students {
+    margin: 50px;
+}
+
+.students-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.students-header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+}
+
+.students-header button {
+    background-color: seagreen;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
